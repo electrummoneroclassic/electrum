@@ -1,4 +1,4 @@
-Electrum - Lightweight Bitcoin client
+Electrum Monero Classic - Lightweight Bitcoin client
 =====================================
 
 ::
@@ -26,25 +26,25 @@ Electrum - Lightweight Bitcoin client
 Getting started
 ===============
 
-Electrum is a pure python application. If you want to use the
+Electrum Monero Classic is a pure python application. If you want to use the
 Qt interface, install the Qt dependencies::
 
     sudo apt-get install python3-pyqt5
 
 If you downloaded the official package (tar.gz), you can run
-Electrum from its root directory, without installing it on your
+Electrum Monero Classic from its root directory, without installing it on your
 system; all the python dependencies are included in the 'packages'
-directory. To run Electrum from its root directory, just do::
+directory. To run Electrum Monero Classic from its root directory, just do::
 
     ./electrum
 
-You can also install Electrum on your system, by running this command::
+You can also install Electrum Monero Classic on your system, by running this command::
 
     sudo apt-get install python3-setuptools
     pip3 install .[full]
 
 This will download and install the Python dependencies used by
-Electrum, instead of using the 'packages' directory.
+Electrum Monero Classic, instead of using the 'packages' directory.
 The 'full' extra contains some optional dependencies that we think
 are often useful but they are not strictly needed.
 
@@ -92,7 +92,7 @@ To create binaries, create the 'packages' directory::
 
     ./contrib/make_packages
 
-This directory contains the python dependencies used by Electrum.
+This directory contains the python dependencies used by Electrum Monero Classic.
 
 Mac OS X / macOS
 --------
